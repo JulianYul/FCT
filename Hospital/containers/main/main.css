@@ -1,0 +1,75 @@
+#mainContainer {
+    width: 100%;
+
+    background-image: conic-gradient(var(--principal), var(--primary-100));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: orange;
+}
+
+.focus-in-contract div {
+  font-weight: 900;
+  font-size: calc(0.5rem + 5vw);
+}
+
+#mainContainer h6 
+{
+  background-color: var(--principal);
+}
+
+.gustavo {
+  mask-image: linear-gradient(to top, transparent 1%, black 10%);
+width: 100%;
+height: 100%;
+
+}
+
+
+.fa-angles-down:hover {
+    animation: translate 1.5s infinite;
+}
+@keyframes translate {
+  0% {
+     transform: translateY(0px);
+  }
+  50% {
+     transform: translateY(15px);
+  }
+  100% {
+     transform: translateY(0px);
+  }
+}
+
+/* Efecto texto título */
+.focus-in-contract {
+	-webkit-animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-contract {
+        0% {
+          letter-spacing: 0.4em;
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes focus-in-contract {
+        0% {
+          letter-spacing: 0.4em;
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      
