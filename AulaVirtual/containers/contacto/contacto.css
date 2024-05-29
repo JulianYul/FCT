@@ -1,0 +1,14 @@
+a {
+    cursor: pointer;
+}
+
+.linkContacto {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.linkContacto:hover {
+    text-decoration: underline;
+    text-underline-position:under;
+}
